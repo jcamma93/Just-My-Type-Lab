@@ -1,13 +1,14 @@
 # Just-My-Type-Lab
 Just My Type
  
-Info
+Info:
 You are going to build a typing game
 This lab uses an older version of the Bootstrap UI Framework. It is already imported for you.
 You will be using JQuery to complete this lab
 Make sure you import JQuery into your html file
 You will also need to import your own JavaScript file that you create
-Objectives
+
+Objectives:
 (ALREADY COMPLETE) Create two keyboards (include space bar):
 First keyboard, lowercase keys, numbers and special characters accessed without shift
 Second, keys accessed while holding down the shift key
@@ -17,9 +18,12 @@ Write jQuery code to set up keyboard toggling:
 While the shift key is held down, hide the lowercase keyboard and show the uppercase one
 When the shift key is released, show the lowercase keyboard and hide the uppercase one
 When keys are pressed, they should be highlighted in the browser.
+
 *Hint: the letters should be matched with the corresponding ascii code. The id value of the key in the html corresponds to the ASCII character code that you can access in the keyboard listener. For example, ascii value 65 is A, and 97 is a. Search for ASCII character chart to see a complete list of codes. Ask yourself: How do I determine which key was pressed on the keyboard when using a jQuery event listener?
+
 The sentences in the provided array should be displayed at the top of the page one sentence at a time. Once the sentence has been completed, the next in line should appear. There is already a div with id="sentence" in your html file. This is where you will display each sentence one at a time.
 let sentences = ['ten ate neite ate nee enet ite ate inet ent eate', 'Too ato too nOt enot one totA not anot tOO aNot', 'oat itain oat tain nate eate tea anne inant nean', 'itant eate anot eat nato inate eat anot tain eat', 'nee ene ate ite tent tiet ent ine ene ete ene ate'];
+
 You should highlight the currently expected letter in the on-screen sentence that should be typed next
 You can use the div with id="yellow-block" and nudge it along a fixed number of pixels if you'd like
 Remember to reset it back to the beginning of the sentence when you move to the next sentence
@@ -35,7 +39,8 @@ For number of words, you can just count how many words make up the sentences you
 There should be a delay so the user can see the score. Then ask the user whether they would like to play again.
 If confirmed yes, reset the game back to the start.
 If no, leave as is.
-Hints
+
+Hints:
 To succeed in this exercise, you need to keep track of:
 Which sentence the user is on
 Which letter of that sentence the user is on
